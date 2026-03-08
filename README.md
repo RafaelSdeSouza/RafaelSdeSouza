@@ -1,21 +1,43 @@
 # Dr Rafael S. de Souza
 
-I'm a Senior Lecturer in Data Science at University of Hertfordshire and Chair of the Cosmostatistics Initiative 
+Astrostatistician and scientific software developer working on Bayesian methods, machine learning, and spectral/IFU analysis for astronomy.
 
-- 👯 I’m looking to collaborate on open-source projects
-- 📫 How to reach me: [Email](mailto:rafael.2706@gmail.com)
+[Website](https://www.rafaelsdesouza.org) | [ADS Publications](https://ui.adsabs.harvard.edu/public-libraries/I0n5jJUURgCy9JoMqkqhng) | [COIN](https://about.me/cosmostatisticsinitiative) | [University Profile](https://researchprofiles.herts.ac.uk/en/persons/rafael-s-de-souza) | [Email](mailto:rafael.2706@gmail.com)
 
-## <img width=25 src='https://user-images.githubusercontent.com/8226984/227711634-f9943192-2b39-4f8f-921a-00d6821fc7a9.png'> Top Programming Languages on My Repos
+## Research themes
 
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-<a href='https://anaconda.org/neutrinomuon/'><img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"></a>
-<a href='https://www.python.org/'><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
-![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white)
+- Astrostatistics and Bayesian inference for noisy, high-dimensional astrophysical data.
+- Machine learning for spectroscopy, IFU cubes, and spectral decomposition.
+- Reproducible scientific software that connects methods, data products, and publications.
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+## Current work
 
+- Building software for large-scale spectral analysis and dimensionality reduction.
+- Developing methods for IFU segmentation and spectral unmixing in galaxy data cubes.
+- Applying statistical and machine learning methods to cosmology, supernovae, and survey-scale data.
+- Expanding interdisciplinary research through the Cosmostatistics Initiative (COIN).
 
+## Selected software
 
+- [`qrpca`](https://github.com/RafaelSdeSouza/qrpca) - QR-based PCA for large spectral datasets and high-dimensional analysis.
+- [`SpectralUnmix`](https://github.com/RafaelSdeSouza/SpectralUnmix) - Smooth non-negative spectral unmixing for IFU and hyperspectral data.
+- [`AMADA`](https://github.com/RafaelSdeSouza/AMADA) - Interactive tools for multivariate astronomical data analysis.
+- [`capivara`](https://github.com/RafaelSdeSouza/capivara) - Spectral-based segmentation for IFU data cubes, with a linked [MNRAS paper](https://academic.oup.com/mnras/article/539/4/3166/8120522).
+
+## Selected publications and writing
+
+- [*Bayesian Models for Astrophysical Data*](https://www.cambridge.org/core/books/bayesian-models-for-astrophysical-data/A521B3BB3A2E1621EE1B907E87207218) (Cambridge University Press, 2017), with Joseph M. Hilbe and Emille E. O. Ishida.
+- [Twenty-First-Century Statistical and Computational Challenges in Astrophysics](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-042720-112045) (Annual Review of Statistics and Its Application, 2021).
+- [Stress testing the dark energy equation of state imprint on supernova data](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.123529) (Physical Review D, 2019).
+- [capivara: a spectral-based segmentation method for IFU data cubes](https://academic.oup.com/mnras/article/539/4/3166/8120522) (Monthly Notices of the Royal Astronomical Society, 2025).
+
+## Teaching and community
+
+- Senior Lecturer in Data Science at the University of Hertfordshire.
+- Founder and Chair of the Cosmostatistics Initiative (COIN).
+- Interested in open, reusable research software and reproducible computational methods.
+
+## Collaboration
+
+- Open to collaborations on astrostatistics, scientific software, machine learning for spectroscopy, and reproducible data analysis.
+- The pinned repositories on this profile are the main public-facing software portfolio.
