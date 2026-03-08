@@ -19,10 +19,15 @@ Astrostatistician and scientific software developer working on Bayesian methods,
 
 ## Selected software
 
-- [`qrpca`](https://github.com/RafaelSdeSouza/qrpca) - QR-based PCA for large spectral datasets and high-dimensional analysis.
+- [`qrpca`](https://github.com/RafaelSdeSouza/qrpca) - QR-based PCA for large spectral datasets and high-dimensional analysis. Paper: [Astronomy and Computing 41, 100633 (2022)](https://doi.org/10.1016/j.ascom.2022.100633).
 - [`SpectralUnmix`](https://github.com/RafaelSdeSouza/SpectralUnmix) - Smooth non-negative spectral unmixing for IFU and hyperspectral data.
 - [`AMADA`](https://github.com/RafaelSdeSouza/AMADA) - Interactive tools for multivariate astronomical data analysis.
-- [`capivara`](https://github.com/RafaelSdeSouza/capivara) - Spectral-based segmentation for IFU data cubes, with a linked [MNRAS paper](https://academic.oup.com/mnras/article/539/4/3166/8120522).
+- [`capivara`](https://github.com/RafaelSdeSouza/capivara) - Spectral-based segmentation for IFU data cubes. Paper: [MNRAS 539(4), 3166-3179 (2025)](https://doi.org/10.1093/mnras/staf688).
+
+## Software in the COIN ecosystem
+
+- [`AMADA`](https://github.com/RafaelSdeSouza/AMADA) - Visual and interactive analysis of multidimensional astronomical datasets. Website: [rafaelsdesouza.github.io/AMADA](https://rafaelsdesouza.github.io/AMADA/).
+- [Cosmostatistics Initiative (COIN)](https://about.me/cosmostatisticsinitiative) - Interdisciplinary hub for astrostatistics, machine learning, and collaborative scientific software.
 
 ## Selected publications and writing
 
