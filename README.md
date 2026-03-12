@@ -9,7 +9,7 @@ Astrostatistician and scientific software developer working on Bayesian reasonin
 
 - [`qrpca`](https://github.com/RafaelSdeSouza/qrpca) - QR-based PCA, [A&C 41, 100633 (2022)](https://doi.org/10.1016/j.ascom.2022.100633).
 - [`SpectralUnmix`](https://github.com/RafaelSdeSouza/SpectralUnmix) - Smooth non-negative spectral unmixing for hyperspectral data.
-- [`AMADA`](https://github.com/RafaelSdeSouza/AMADA) - Interactive tools for multivariate astronomical data analysis.
+- [`RESSPECT`](https://github.com/RafaelSdeSouza/AMADA) - Recommendation System for Spectroscopic Follow-up [2020 IEEE Symposium Series on Computational Intelligence](10.1109/SSCI47803.2020.9308300)
 - [`capivara`](https://github.com/RafaelSdeSouza/capivara) - Spectral-based segmentation for IFU data cubes, [MNRAS 539(4), 3166 (2025)](https://doi.org/10.1093/mnras/staf688).
 
 
