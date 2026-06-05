@@ -1,21 +1,54 @@
-# Dr Rafael S. de Souza
+# Rafael S. de Souza Academic Website
 
-Astrostatistician and scientific software developer working on Bayesian reasoning, machine learning, and applied mathematics.
+This repository contains a static GitHub Pages website for an academic CV, research profile, publications, software, and project highlights.
 
-[Website](https://www.rafaelsdesouza.org) | [ADS Publications](https://ui.adsabs.harvard.edu/public-libraries/I0n5jJUURgCy9JoMqkqhng) | [COIN](https://about.me/cosmostatisticsinitiative) | [University Profile](https://researchprofiles.herts.ac.uk/en/persons/rafael-s-de-souza) | [Email](mailto:rafael.2706@gmail.com)
+## Main Files
 
+- `index.html`: page structure and section order.
+- `styles.css`: visual design.
+- `script.js`: loads and filters publications.
+- `content/publications.json`: the easiest place to add new papers, software, and media items.
+- `assets/cv/cv.pdf`: downloadable PDF CV.
+- `assets/images/rafael-de-souza.jpg`: hero/profile image.
+- `assets/images/coin.png`: COIN logo used in the visual identity areas.
+- `CV_rafael_2026/`: original Overleaf/LaTeX CV source.
 
-## Selected software
+## Adding Publications
 
-- [`qrpca`](https://github.com/RafaelSdeSouza/qrpca) - QR-based PCA, [A&C 41, 100633 (2022)](https://doi.org/10.1016/j.ascom.2022.100633).
-- [`SpectralUnmix`](https://github.com/RafaelSdeSouza/SpectralUnmix) - Smooth non-negative spectral unmixing for hyperspectral data.
-- [`AMADA`](https://github.com/RafaelSdeSouza/AMADA) - Interactive tools for multivariate astronomical data analysis.
-- [`capivara`](https://github.com/RafaelSdeSouza/capivara) - Spectral-based segmentation for IFU data cubes, [MNRAS 539(4), 3166 (2025)](https://doi.org/10.1093/mnras/staf688).
+The full website publication list is generated from the Overleaf BibTeX file:
 
+```bash
+python3 scripts/bib_to_publications.py CV_rafael_2026/references.bib content/publications.json
+```
 
-## Selected publications and writing
+Run that command after editing `CV_rafael_2026/references.bib`.
 
-- [*Bayesian Models for Astrophysical Data*](https://www.cambridge.org/core/books/bayesian-models-for-astrophysical-data/A521B3BB3A2E1621EE1B907E87207218) (Cambridge University Press, 2017), with Joseph M. Hilbe and Emille E. O. Ishida.
-- [Twenty-First-Century Statistical and Computational Challenges in Astrophysics](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-042720-112045) (Annual Review of Statistics and Its Application, 2021).
-- [capivara: a spectral-based segmentation method for IFU data cubes](https://academic.oup.com/mnras/article/539/4/3166/8120522) (Monthly Notices of the Royal Astronomical Society, 2025).
+You can also edit `content/publications.json` by hand. A publication object looks like this:
 
+```json
+{
+  "year": 2026,
+  "type": "paper",
+  "title": "Paper title",
+  "venue": "Journal or preprint server",
+  "summary": "One sentence summary.",
+  "links": {
+    "DOI": "https://doi.org/...",
+    "ADS": "https://ui.adsabs.harvard.edu/..."
+  }
+}
+```
+
+Supported `type` values include `paper`, `software`, `report`, `book`, `chapter`, `proceeding`, and `catalogue`.
+
+## Replacing Images and Logos
+
+- Replace `assets/images/rafael-de-souza.jpg` with a formal portrait or a preferred graphic.
+- Add logos to `assets/images/` and then add them to the `Visual Lab` section in `index.html`.
+- Project cards live in the `Projects and Software` section of `index.html`.
+
+## Custom Domain
+
+See `docs/domain-setup.md` for the custom domain and Google visibility workflow.
+
+In short: after the site is pushed to GitHub, configure GitHub Pages, add your domain in `Settings > Pages`, set DNS at your registrar, enable HTTPS, and then submit the domain to Google Search Console.
